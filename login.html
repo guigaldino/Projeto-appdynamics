@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<!--doctype informa ao agente de usuário a versão do html que deve ser renderizada.-->
+<html lang="pt-br">
+
+<head>
+  <title>Login Appdynamics</title>
+  <meta charset="utf-8">
+  <meta name="author" content="Guilherme Galdino">
+  <meta name="description" content="Teste de tags html">
+  <meta name="keywords" content="html5, tecnologia">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+  <style>
+
+    body{
+      font-family: helvetica;
+      color: #7b7d80;
+    }
+    
+    .header-login {
+      margin: 30px auto;
+      text-align: center;
+      color: black;
+    }
+
+    .formlog {
+      margin: 10px auto;
+      text-align: center;
+    }
+
+    .email input{
+      margin-top: 18px;
+      margin-bottom: 18px;
+      padding: 15px;
+      width: 30%;
+      font-size: 18px;
+      border: 3px solid rgb(130, 130, 130);
+      border-radius: 15px;
+    }
+
+    .senha input{
+      margin-top: 18px;
+      margin-bottom: 18px;
+      padding: 15px;
+      width: 30%;
+      font-size: 18px;
+      border: 3px solid rgb(130, 130, 130);
+      border-radius: 15px;
+    }
+
+    .email input:focus{
+      outline: none;
+      border: 3px solid black;
+    }
+   
+    .senha input:focus{
+      outline: none;
+      border: 3px solid black;
+    }
+
+    .check-senha{
+      margin-top: 18px;
+    }
+
+    .check-senha label{
+      margin-right: 100px;
+      
+    }
+     
+    .link-senha a{
+      color: #d0d3d7;
+      text-decoration: none;
+    }
+
+    .link-senha a:hover{
+      text-decoration: underline;
+    }
+
+    /* label input{
+      height: 1px;
+        width: 1px;
+        overflow: hidden;
+        opacity: 0  ;
+    }
+    */
+
+    .button{
+      margin-top: 30px;
+    }
+
+    .button input{
+      padding: 10px;
+      width: 20%;
+      background: black;
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      border: black;
+    }
+
+    .button input:hover{
+      cursor: pointer;
+     
+    }
+
+    .link-cadastro{
+      font-size: 12px;
+      margin-top: 16px;
+    }
+
+    .link-cadastro a{
+      color: black;
+    }
+
+   
+  </style>
+
+</head>
+
+<body>
+
+  <div class="header-login">
+
+    <img src="logo.svg" alt="Logotipo da empresa">
+    <h2 class="slogan">Sua conta para tudo da Appdynamics</h2>
+
+  </div>
+
+
+  <form class="formlog">
+
+    <div class="email">
+      <input type="email" placeholder="Endereço de email">
+    </div>
+
+    <div class="senha">
+      <input type="password" placeholder="Senha">
+    </div>
+
+    <div class="check-senha">
+        
+          <label for="remember">
+          <input type="checkbox" id="remember" >
+            Mantenha-me conectado
+          </label>
+           <span class="link-senha"><a href="esqueceu_senha.html">Esqueceu sua senha?</a></span>
+          
+     </div>
+
+    <div class="button">
+      <input type="submit" value="Entrar">
+    </div>
+
+    <div class="link-cadastro">
+      <p>Não está registrado? <a href="login_appdynamics.html">Junte-se a nós</a></p>
+    </div>
+
+  </form>
+
+
+
+</body>
+
+</html>

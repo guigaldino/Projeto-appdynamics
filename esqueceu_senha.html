@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!--doctype informa ao agente de usuário a versão do html que deve ser renderizada.-->
+<html lang="pt-br">
+
+<head>
+  <title>Esqueceu a senha</title>
+  <meta charset="utf-8">
+  <meta name="author" content="Guilherme Galdino">
+  <meta name="description" content="Teste de tags html">
+  <meta name="keywords" content="html5, tecnologia">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <style>
+
+      body{
+        font-family: helvetica;
+      }
+      .header{
+        margin: 40px auto;
+        text-align: center;
+        width: 40%;
+      }
+
+      .header p{
+        color: #7b7d80;
+      }
+
+      h2{
+        font-size: 27px;
+      }
+
+      .formulario{
+        width: 50%;
+        margin: 40px auto;
+        text-align: center;
+      }
+
+      .email input{
+        margin-bottom: 40px;
+        padding: 15px;
+      width: 65%;
+      font-size: 18px;
+      border: 3px solid rgb(130, 130, 130);
+      border-radius: 15px;
+      }
+
+      .email input:focus{
+        outline: none;
+        border: 3px solid black;
+      }
+
+
+      .button input{
+        padding: 10px;
+      width: 40%;
+      background: black;
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      border: black;
+      border-radius: 3px;
+      }
+
+      .button input:hover{
+        cursor: pointer;
+
+      }
+
+      .voltar-log{
+        margin-top: 40px;
+        font-size: 14px;
+        color: #7b7d80;
+      }
+
+      .voltar-log a{
+        color: black;
+      }
+
+
+    </style>
+</head>
+
+<body>
+
+  <div class="header">
+    <img src="logo.svg" alt="Logotipo da empresa">
+    <h2>Esqueceu a sua senha?</h2>
+    <p>Insira o endereço de e-mail. Você receberá uma mensagem de e-mail com as instruções necessárias para redefinir a
+      senha.</p>
+  </div>
+
+  <form class="formulario">
+
+    <div class="email">
+      <input type="email" placeholder="Endereço de email">
+    </div>
+
+    <div class="button">
+      <input type="submit" value="Enviar">
+    </div>
+
+    <p class="voltar-log">Ou volte para <a href="login.html">Entrar</a></p>
+  </form>
+
+</body>
+
+</html>
